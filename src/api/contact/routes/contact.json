@@ -1,0 +1,20 @@
+{
+    "routes": [
+        {
+            "method": "GET",
+            "path": "/contacts",
+            "handler": "contact.find",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "POST",
+            "path": "/contact",
+            "handler": "contact.create",
+            "config": {
+                "policies": []
+            }
+        }
+    ]
+}
